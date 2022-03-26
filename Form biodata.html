@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h2>Form Biodata</h2>
+    <form action="" method="post">
+      <table>
+        <tr>
+          <td width="210">NIM :</td>
+          <td><input type="number" /></td>
+        </tr>
+        <tr>
+          <td>NAMA :</td>
+          <td><input type="text" name="" id="" size="50" /></td>
+        </tr>
+        <tr>
+          <td>JENIS KELAMIN :</td>
+          <td><input type="radio" name="jenis_kelamin" value="Pria" />Pria <input type="radio" name="jenis_kelamin" value="Wanita" />Wanita</td>
+        </tr>
+
+        <tr>
+          <td>JURUSAN :</td>
+          <td>
+            <select name="jurusan" id="">
+              <option value="Pilih">Pilih......</option>
+              <option value="Menikah">S1 Ilmu Komputer</option>
+              <option value="Single">S1 Rekayasa Perangkat Lunak</option>
+              <option value="Single">S1 Desain Komunikasi Visual</option>
+              <option value="Single">S1 Teknologi Informasi</option>
+              <option value="Single">D3 Rekayasa Perangkat Lunak</option>
+              <option value="Single">D3 Sistem Informasi</option>
+              <option value="Single">S1 Manajemen</option>
+              <option value="Single">S1 Akuntansi</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>HOBBY :</td>
+          <td>
+            <input type="checkbox" name="Hobby" value="Komputer" />Komputer <input type="checkbox" name="Hobby" value="Musik" />Musik <input type="checkbox" name="Hobby" value="Olahraga" />Olahraga
+            <input type="checkbox" name="Hobby" value="Traveling" />Travelling
+          </td>
+        </tr>
+
+        <tr>
+          <td>CATATAN :</td>
+          <td><textarea name="textarea" id="" cols="70" rows="10"></textarea></td>
+        </tr>
+
+        <tr>
+          <td>FOTO :</td>
+          <td><input type="file" name="foto" accept="image/*" /></td>
+        </tr>
+
+        <tr>
+          <td>EMAIL :</td>
+          <td><input type="email" name="email" size="50" /></td>
+        </tr>
+
+        <tr>
+          <td>SANDI LOGIN :</td>
+          <td><input type="password" size="50" /></td>
+        </tr>
+
+        <tr>
+          <td>ULANGI SANDI LOGIN :</td>
+          <td><input type="password" name="" id="" size="50" /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Simpan" />
+            <input type="reset" value="Reset" />
+            <input type="button" value="Peringatan" />
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
