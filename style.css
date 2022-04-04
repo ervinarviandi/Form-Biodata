@@ -1,7 +1,61 @@
-h2 {
-  text-align: center;
+body {
+  font-family: "Roboto", sans-serif;
+}
+.animasi-background {
+  /* background-color: #2d7dd2; */
+  background: linear-gradient(to right, #845ee6, #ef96e7, #e9b8e4);
+  background-size: 400% 400%;
+  animation: animasi-background 10s infinite ease-in-out;
 }
 
-/* td textarea {
+@keyframes animasi-background {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+tr {
+  color: #fff;
+}
+
+td .radio {
+  background-color: #eeb902 !important;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+td textarea {
   resize: none;
-} */
+  border-radius: 5px;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+.tombol {
+  background-color: #eeb902;
+  color: #fff !important;
+}
+
+.tombol:hover {
+  background-color: #8f02ed;
+  cursor: pointer;
+}
+
+td .radio-btn {
+  background-color: #eeb902;
+}
